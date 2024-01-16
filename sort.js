@@ -18,3 +18,13 @@ db.inventory.find().skip(2) // skips first 2 documents
 // limit
 db.inventory.find().limit(1) // limits the number of documents in output to 1
 db.inventory.find().limit(2) // limits the number of documents in output to 2
+
+
+
+/*
+// Achieving pagination using MongoDB find and limit
+no = 8
+db.blogs.find().skip((pageNo-1)*no).limit(no)
+db.blogs.find().skip((0).limit(8) // if pageNo = 1
+db.blogs.find().skip(8).limit(8) // if pageNo = 2
+*/
