@@ -10,3 +10,6 @@ db.inventory.insertMany( [
 //sort
 db.inventory.find().sort({qty: 1}) //ascending
 db.inventory.find().sort({qty: -1}) //descending
+
+//skip
+db.inventory.find().skip(1)
