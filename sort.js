@@ -7,9 +7,10 @@ db.inventory.insertMany( [
     { item: "postcard", qty: 45, size: { h: 10, w: 15.25, uom: "cm" }, status: "A" },
  ] );
 
-//sort
-db.inventory.find().sort({qty: 1}) //ascending
-db.inventory.find().sort({qty: -1}) //descending
+// sort
+db.inventory.find().sort({qty: 1}) // ascending order of qty
+db.inventory.find().sort({qty: -1}) // descending order of qty
 
-//skip
-db.inventory.find().skip(1)
+// skip
+db.inventory.find().skip(1) // skips first document
+db.inventory.find().skip(2) // skips first 2 documents
