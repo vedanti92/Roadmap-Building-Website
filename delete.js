@@ -9,3 +9,6 @@ db.inventory.find().limit(1)
 
 //skip
 db.inventory.find().skip(1)
+
+//sort
+db.inventory.find().sort({qty: 1}) //ascending
