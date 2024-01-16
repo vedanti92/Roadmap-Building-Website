@@ -12,3 +12,4 @@ db.inventory.find().skip(1)
 
 //sort
 db.inventory.find().sort({qty: 1}) //ascending
+db.inventory.find().sort({qty: -1}) //descending
