@@ -1,8 +1,8 @@
-# mongodb
+# MongoDB 🍃
 
-This repository contains basics of MongoDB.
+> ### This repository contains basics of MongoDB.
 #
-Topics:
+## Topics:
 >CRUD Operations
 >
 >Sort, Skip, Limit Operations
